@@ -2,6 +2,28 @@
 <html>
     <head>
         <title>Employee Registration </title>
+        <style>
+            .a1{
+                color: rgb(161, 127, 255);
+                text-transform: capitalize   ;
+            }
+            h2{
+                color: rgb(230, 83, 16);
+                text-align: center;
+                text-shadow: 4px 2px 3px rgb(129, 67, 82);
+            }
+            input{
+                border-radius: 0.5;
+                background-color: rgb(196, 180, 162);
+                text-transform: uppercase;
+            }
+            #a2 input{
+               border-radius: 0.6;
+              
+              color:rgb(133, 16, 74);
+              background-color: aquamarine;
+            }
+        </style>
     </head>
     <body>
         <form action="">
@@ -9,44 +31,44 @@
         <table>
             <tbody>
                 <tr>
-                    <td><label>Full Name :</label></td>
+                    <td><label class="a1">Full Name :</label></td>
                     <td><input type="text" required></td>
                 </tr>
                 <tr>
-                    <td><label > Email Address :</label></td>
+                    <td><label class="a1" > Email Address :</label></td>
                     <td><input type="email" required placeholder="abc@gmail.com"></td>
                 </tr>
                 <tr>
-                    <td><label>Password :</label></td>
+                    <td><label class="a1">Password :</label></td>
                     <td><input type="password" required></td>
                 </tr>
                 <tr>
-                    <td><label >Contact Number :</label></td>
+                    <td><label class="a1">Contact Number :</label></td>
                     <td><input type="number" required></td>
                 </tr>
                 <tr>
-                    <td><label >Profile Photo :</label></td>
+                    <td><label class="a1" >Profile Photo :</label></td>
                     <td><input type="file"></td>
                 </tr>
                 <tr>
-                    <td>Date Of Birth :</td>
+                    <td><label class="a1" >Date Of Birth :</label></td>
                     <td><input type="date" required></td>
                 </tr>
                 <tr>
-                    <td>Gender :</td>
+                    <td><label class="a1" >Gender :</label></td>
                     <td>
                         <input type="radio" name="Gender"><label>Female</label>
                         <input type="radio" name="Gender"><label>Male</label>
                     </td>
                 </tr>
-                <tr> <td>Marital Status</td>
+                <tr> <td><label class="a1" >Marital Status</label></td>
                     <td>
                         <input type="radio" name="Marital"><label >Yes</label>
                         <input type="radio" name="Marital"><label >no</label>
                     </td>   
                 </tr>
                 <tr>
-                    <td>Known Tool & Technology :</td>
+                    <td><label class="a1" >Known Tool & Technology :</label></td>
                     <td>
                         <input type="checkbox"><label>Angular</label>
                         <input type="checkbox"><label>React</label>
@@ -58,7 +80,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>Profile :</td>
+                    <td><label class="a1">Profile :</label></td>
                     <td>
                         <select>
 
@@ -72,18 +94,18 @@
 
                 </tr>
                 <tr>
-                    <td>Country</td>
+                    <td><label class="a1">Country</label></td>
                     <td><input type="text" name="country" value="India" readonly>
                     </td>
 
                 </tr>
                 <tr>
-                    <td>Present Address</td>
+                    <td><label class="a1" >Present Address</label></td>
                     <td><textarea  cols="30" rows="7"></textarea></td>
                 </tr>
-                <tr>
-                    <td><input type="submit"></td>
-                    <td><input type="reset"></td>
+                <tr >
+                    <td id="a2"><input type="submit"></td>
+                    <td id="a2"><input type="reset"></td>
                 </tr>
                          
             </tbody>
